@@ -12,7 +12,7 @@ flutter run
 
 ## How to play
 
-![Screenshot from 2024-06-27 16-56-19](https://github.com/NajibPro/snake_game/assets/96317571/f9929fb6-848c-4351-a97a-7b03171775aa)
+<img src="https://github.com/NajibPro/snake_game/assets/96317571/f9929fb6-848c-4351-a97a-7b03171775aa" alt="Snake Game Screenshot" width="300" />
 
 
 - the arrows at the bottom let you control the movement of your snake.
