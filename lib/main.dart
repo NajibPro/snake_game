@@ -169,24 +169,26 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
         ),
         home: Scaffold(
-          body: Column(
-            children: [
-              const SizedBox(
-                width: double.infinity,
-                height: 1,
-              ),
-              const Score(),
-              LayoutBuilder(
-                  builder: (BuildContext context, BoxConstraints constraints) {
-                return SizedBox(
-                  height: 550,
-                  width:
-                      constraints.maxWidth < 350 ? constraints.maxWidth : 350,
-                  child: const SnakeGrid(),
-                );
-              }),
-              const Controllers(),
-            ],
+          body: SafeArea(
+            child: Column(
+              children: [
+                const SizedBox(
+                  width: double.infinity,
+                  height: 1,
+                ),
+                const Score(),
+                LayoutBuilder(
+                    builder: (BuildContext context, BoxConstraints constraints) {
+                  return SizedBox(
+                    height: 550,
+                    width:
+                        constraints.maxWidth < 440 ? constraints.maxWidth : 440,
+                    child: const SnakeGrid(),
+                  );
+                }),
+                const Controllers(),
+              ],
+            ),
           ),
         ),
       ),
