@@ -1,4 +1,4 @@
-## snake game with flutter
+## Snake game with Flutter
 
 Have the urge to play some old games? try this snake game app. Just go to Releases section in this repo and download the .apk file to start the fun.
 
